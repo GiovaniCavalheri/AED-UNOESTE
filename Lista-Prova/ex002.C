@@ -56,7 +56,6 @@ int inserePilha(Funcionarios F)
 Funcionarios removePilha(char buscaNome[])
 {
     Funcionarios F;
-    char elem[30];
     if (!pilhaVazia())
     {
         F = pilha[topo]; 
